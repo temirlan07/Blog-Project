@@ -1,4 +1,29 @@
-__pycache__/
+# Django
+*.log
+*.pot
 *.pyc
-*.sqlite3
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
 .env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database migrations (optional)
+*/migrations/*.py
+!*/migrations/__init__.py
